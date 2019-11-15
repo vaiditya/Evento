@@ -7,13 +7,18 @@
     color: purple;
   }
 
-  copyright {
-    justify-content: space-between;
+  .copyright {
+    // display: flex;
+    // justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
   }
 </style>
 
 <div class="copyright">
-  <h3>Copyright@2019</h3>
-  <h3>Rights Reserved</h3>
+  <b>
+    <small>&copy; Copyright 2019, EVENTO</small>
+  </b>
 
 </div>
