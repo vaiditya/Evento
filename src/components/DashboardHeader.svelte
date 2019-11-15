@@ -8,4 +8,4 @@
   }
 </style>
 
-<h1>Component Header</h1>
+<h1>Component Header 1</h1>
