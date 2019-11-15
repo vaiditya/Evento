@@ -2,8 +2,9 @@
   import HomePage from "./pages/HomePage.svelte";
 </script>
 
-<style>
-  h1 {
+<style lang="scss" global>
+ @import "./style/global.scss";
+   h1 {
     color: purple;
   }
 </style>

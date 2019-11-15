@@ -2,7 +2,7 @@
 
 </script>
 
-<style>
+<style lang=scss>
   h1 {
     color: purple;
   }

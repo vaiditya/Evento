@@ -2,7 +2,7 @@
   import DashboardHeader from "../components/DashboardHeader.svelte";
 </script>
 
-<style>
+<style lang=scss>
   h1 {
     color: purple;
   }

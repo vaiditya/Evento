@@ -2,10 +2,7 @@
   import DashboardFooter from "../components/DashboardFooter.svelte";
 </script>
 
-<style>
-  h1 {
-    color: purple;
-  }
+<style lang=scss>
 </style>
 
 <div>
