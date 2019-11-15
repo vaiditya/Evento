@@ -5,6 +5,10 @@
   let delay = 2000; //ms
   let showIndicators = true;
   let transitionDuration = 1000; //ms
+
+  function onCreateEvent() {
+    window.location = "/event";
+  }
 </script>
 
 <style lang="scss">
@@ -67,5 +71,7 @@
       </SwipeItem>
     </Swipe>
   </div>
-  <a class="btn-cust">Create Event</a>
+  <button href="/event" class="btn-cust" on:click={onCreateEvent}>
+    Create Event
+  </button>
 </div>
