@@ -1,11 +1,9 @@
-<script>
+<script>  
+  </script>
 
-</script>
-
-<style>
-  h1 {
-    color: purple;
-  }
+<style lang="scss">
+  
 </style>
-
-<h1>Component Header 1</h1>
+<header>
+  test 1 test 2
+</header>

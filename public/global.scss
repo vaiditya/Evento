@@ -60,3 +60,6 @@ button:active {
 button:focus {
 	border-color: #666;
 }
+:global(.svelte-fluid-header--button) {
+    color: grey
+  }
