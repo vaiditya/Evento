@@ -2,10 +2,18 @@
 
 </script>
 
-<style lang=scss>
+<style lang="scss">
   h1 {
     color: purple;
   }
+
+  copyright {
+    justify-content: space-between;
+  }
 </style>
 
-<h1>Component Footer</h1>
+<div class="copyright">
+  <h3>Copyright@2019</h3>
+  <h3>Rights Reserved</h3>
+
+</div>

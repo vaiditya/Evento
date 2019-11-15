@@ -1,5 +1,6 @@
-<script>  
-  </script>
+<script>
+
+</script>
 
 <style lang="scss">
   header {
@@ -9,35 +10,46 @@
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-}
-.logo{
-      display: flex;
+  }
+  .logo {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-ul {
+  }
+  ul {
     display: flex;
-    list-style-type: none;   
-}
-li{
+    list-style-type: none;
+  }
+  li {
     padding: 0 10px;
-    a{
-      color:#fff;text-decoration:none;
-      &:hover{color:#ddd;}
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        color: #ddd;
+      }
     }
   }
-
 </style>
+
 <header>
-   <div class="logo">
-   <img src="/image/logo.png" alt="Logo">
-   Evento
-   </div>
-    <ul>
-      <li><a href="/">Feature</a></li>
-      <li><a href="/">Why Evento?</a></li>
-      <li><a href="/">Contact Us</a></li>
-      <li><a href="/">Login</a></li>
-    </ul>
- 
+  <div class="logo">
+    <img src="/image/logo.png" alt="Logo" />
+    Evento
+  </div>
+  <ul>
+    <li>
+      <a href="/">Features</a>
+    </li>
+    <li>
+      <a href="/">Why Evento?</a>
+    </li>
+    <li>
+      <a href="/">Contact Us</a>
+    </li>
+    <li>
+      <a href="/">Login</a>
+    </li>
+  </ul>
+
 </header>
