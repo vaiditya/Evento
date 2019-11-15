@@ -4,9 +4,7 @@
 
 <style lang="scss" global>
  @import "./style/global.scss";
-   h1 {
-    color: purple;
-  }
+   
 </style>
 
 <HomePage />
