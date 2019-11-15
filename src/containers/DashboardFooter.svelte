@@ -2,7 +2,7 @@
   import DashboardFooter from "../components/DashboardFooter.svelte";
 </script>
 
-<style lang=scss>
+<style>
 </style>
 
 <div>
