@@ -2,10 +2,23 @@
 
 </script>
 
-<style lang=scss>
+<style lang="scss">
   h1 {
     color: purple;
   }
+
+  .copyright {
+    // display: flex;
+    // justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+  }
 </style>
 
-<h1>Component Footer</h1>
+<div class="copyright">
+  <b>
+    <small>&copy; Copyright 2019, EVENTO</small>
+  </b>
+
+</div>
