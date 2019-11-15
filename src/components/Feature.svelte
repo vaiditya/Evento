@@ -2,10 +2,10 @@
 
 </script>
 
-<style lang=scss>
-  h1 {
-    color: purple;
+<style>
+  h2 {
+    text-decoration:underline;
   }
 </style>
 
-<h1>Feature Component</h1>
+<h2 class="center">Feature Component</h2>
