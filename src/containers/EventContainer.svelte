@@ -12,35 +12,39 @@
       name: "ACCATHON 2019",
       date: "12/12/12",
       timing: "15:00",
-      venue: "Plot no. 9, AccionLabs",
-      custclass: "black",
-      icons: "/images/seminar.svg"
+      icons: "/images/seminar.svg",
+      venue: "Plot no. 9, ACCIONLABS, MUMBAI",
+      custclass: "black"
     },
     {
       name: "Annual Presentation 2019",
       date: "25/12/2019",
       timing: "19:00",
-      venue: "NORTH WING",
-      custclass: "green",
-      icons: "/images/team.svg"
+      icons: "/images/team.svg",
+      venue: "C-88, NORTH WING, MUMBAI",
+      custclass: "green"
     },
     {
       name: "CSI Meet",
       date: "27/12/2019",
       timing: "11:00",
-      venue: "A, SOUTH WING",
-      custclass: "red",
-      icons: "/images/code.svg"
+      icons: "/images/code.svg",
+      venue: "A-77, SOUTH WING, PUNE",
+      custclass: "red"
     },
     {
       name: "NEW YEARS EVE",
       date: "31/12/2019",
       timing: "23:00",
-      venue: "Plot no. 9",
-      custclass: "purple",
-      icons: "/images/music.svg"
+      icons: "/images/music.svg",
+      venue: "D-99, QUARTER DUBLIN CIRCLE, BANGALORE",
+      custclass: "purple"
     }
   ];
+
+  function createEvent() {
+    window.location = "./createEvent";
+  }
 </script>
 
 <style>
@@ -55,6 +59,7 @@
     {#each data as { name, date, timing, venue, custclass, icons }, i}
       <Event {name} {date} {timing} {venue} {custclass} {icons} />
     {/each}
+    <button on:click={createEvent}>CREATE</button>
   {:else}
     <img
       class="loader"

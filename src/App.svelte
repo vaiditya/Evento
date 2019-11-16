@@ -1,6 +1,7 @@
 <script>
   import HomePage from "./pages/HomePage.svelte";
   import EventPage from "./pages/EventPage.svelte";
+  import CreateEventPage from "./pages/CreateEventPage.svelte";
 
   import { Router, Link, Route } from "svelte-routing";
 
@@ -14,6 +15,7 @@
 <Router {url}>
 
   <div>
+    <Route path="/createEvent" component={CreateEventPage} />
     <Route path="/event" component={EventPage} />
     <Route path="/" exact>
       <HomePage />
