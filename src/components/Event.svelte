@@ -44,10 +44,10 @@
     justify-content: flex-end;}
 </style>
 <div class="box-wrap">
-<div class="box">
+<div class="box {custclass}">
   <h1>{name}</h1>
   <div class="mb-20 " style="justify-content:space-around;"><span>Date: {date}</span> <span>Timing: {timing}</span>
-  <div class="mb-20 venue">Venue: {venue} {custclass}</div>
+  <div class="mb-20 venue">Venue: {venue}</div>
   </div>
   
 </div>
