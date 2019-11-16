@@ -36,12 +36,19 @@
 <div class="featureList">
   <h1>Features</h1>
   <ul>
-    <li>New approach to building user interfaces</li>
-    <li>Write Less Code</li>
-    <li>No Virtual DOM</li>
-    <li>Explicitly has you work with Vanilla JS, CSS & HTML</li>
-    <li>Truely Reactive</li>
-    <li>Coding in Svelte feels effortless</li>
-    <li>Best meets the API of the web</li>
+    <li>One app - Many Events</li>
+    <li>Up-to-date schedules, speaker profiles, location, and presentations</li>
+    <li>Attendee look up, contact card creation and networking</li>
+    <li>Exhibitor & sponsor branding</li>
+    <li>Seamless social media integration & real-time attendee messaging</li>
+    <li>Conduct live polls, surveys or Q/A session for deeper engagements</li>
+    <li>Interactive Map & Floor plans</li>
+    <li>Attendee Registration & integration with Mobile Ticketing platform</li>
+    <li>Promotional landing pages, posters, email templates etc.</li>
+    <li>
+      Complete app branding with event logo, background, icons, color scheme
+      etc.
+    </li>
+    <li>In-app Click through analytics</li>
   </ul>
 </div>
