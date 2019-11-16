@@ -12,28 +12,28 @@
       name: "ACCATHON 2019",
       date: "12/12/12",
       timing: "15:00",
-      venue: "Plot no. 9, AccionLabs",
+      venue: "Plot no. 9, ACCIONLABS, MUMBAI",
       custclass: "black"
     },
     {
       name: "CHRISTMAS 2019",
       date: "25/12/2019",
       timing: "19:00",
-      venue: "NORTH WING",
+      venue: "C-88, NORTH WING, MUMBAI",
       custclass: "green"
     },
     {
       name: "CSI Annual Meet",
       date: "27/12/2019",
       timing: "11:00",
-      venue: "A, SOUTH WING",
+      venue: "A-77, SOUTH WING, PUNE",
       custclass: "red"
     },
     {
       name: "NEW YEARS EVE",
       date: "31/12/2019",
       timing: "23:00",
-      venue: "Plot no. 9",
+      venue: "D-99, QUARTER DUBLIN CIRCLE, BANGALORE",
       custclass: "purple"
     }
   ];
