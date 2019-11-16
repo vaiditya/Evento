@@ -11,26 +11,30 @@
     {
       name: "ACCATHON 2019",
       date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      timing: "15:00",
+      venue: "Plot no. 9, ACCIONLABS, MUMBAI",
+      custclass: "black"
     },
     {
-      name: "ACCATHON 2020",
-      date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      name: "CHRISTMAS 2019",
+      date: "25/12/2019",
+      timing: "19:00",
+      venue: "C-88, NORTH WING, MUMBAI",
+      custclass: "green"
     },
     {
-      name: "ACCATHON 2021",
-      date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      name: "CSI Annual Meet",
+      date: "27/12/2019",
+      timing: "11:00",
+      venue: "A-77, SOUTH WING, PUNE",
+      custclass: "red"
     },
     {
-      name: "ACCATHON 2022",
-      date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      name: "NEW YEARS EVE",
+      date: "31/12/2019",
+      timing: "23:00",
+      venue: "D-99, QUARTER DUBLIN CIRCLE, BANGALORE",
+      custclass: "purple"
     }
   ];
 
@@ -43,10 +47,10 @@
 
 </style>
 
-<div>
+<div style="margin-top: 50px;"> 
   {#if !loader}
-    {#each data as { name, date, timing, venue }, i}
-      <Event {name} {date} {timing} {venue} />
+    {#each data as { name, date, timing, venue, custclass }, i}
+      <Event {name} {date} {timing} {venue} {custclass} />
     {/each}
     <button on:click={createEvent}>CREATE</button>
   {:else}

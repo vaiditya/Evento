@@ -43,6 +43,12 @@
     font-weight: 600;
     border:none;
   }
+  .dot{
+    border: 1px solid #fff;
+  }
+  .dot.is-active{
+    background-color:#fff;
+  }
 </style>
 
 <div class="slider-wrap">

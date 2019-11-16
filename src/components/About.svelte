@@ -40,6 +40,7 @@
     <li>Flawless event day experience</li>
     <li>Streamline Operations</li>
     <li>Actionable Analytics</li>
+    <li>Reminiding notifications for events</li>
     <li>Engaged Comunities</li>
     <li>Truely interconnected network</li>
     <li>Maximum attendence</li>
