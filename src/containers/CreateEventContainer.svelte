@@ -21,11 +21,11 @@
 </style>
 
 <div>
-  <!-- {#if !loader} -->
-  <CreateEvent {name} {date} {timing} {venue} on:submitForm:{onSubmit} />
-  <!-- {:else} -->
-  <!-- <img
+  {#if !loader}
+    <CreateEvent {name} {date} {timing} {venue} on:submitForm:{onSubmit} />
+  {:else}
+    <img
       src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
       alt="" />
-  {/if} -->
+  {/if}
 </div>
