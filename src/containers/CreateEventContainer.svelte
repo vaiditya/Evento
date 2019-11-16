@@ -2,7 +2,7 @@
   import CreateEvent from "../components/CreateEvent.svelte";
 
   let loader = true;
-  let name = "";
+  let name;
   let date;
   let timing;
   let venue;
