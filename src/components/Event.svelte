@@ -40,14 +40,10 @@
   h1 {
     padding: 10px 0;
     margin: 5px 0;
-<<<<<<< HEAD
     // display: flex;
   }
   .mb-20 {
     margin-bottom: 20px;
-=======
-    color: #ffc;
->>>>>>> 513692bf1364f2dad661b08464c5e22b28515b10
   }
   .icons {
     // display: inline-flex;
