@@ -5,7 +5,7 @@
   import Contact from "./Contact.svelte";
 
   let loader = true;
-  setTimeout(generateData, 4000);
+  setTimeout(generateData, 2000);
   async function generateData() {
     loader = false;
   }
@@ -23,7 +23,7 @@
     <Contact />
   {:else}
     <img
-      src="https://i.pinimg.com/originals/39/ee/de/39eede5b8818d7c02d2340a53a652961.gif"
+      src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
       alt="" />
   {/if}
 </div>
