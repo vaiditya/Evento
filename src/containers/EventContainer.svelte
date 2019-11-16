@@ -11,25 +11,25 @@
     {
       name: "ACCATHON 2019",
       date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      timing: "15:00",
+      venue: "Plot no. 9, AccionLabs"
     },
     {
-      name: "ACCATHON 2020",
-      date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      name: "CHRISTMAS 2019",
+      date: "25/12/2019",
+      timing: "19:00",
+      venue: "NORTH WING"
     },
     {
-      name: "ACCATHON 2021",
-      date: "12/12/12",
-      timing: "HH:MM",
-      venue: "Plot no. 9"
+      name: "CSI Annual Meet",
+      date: "27/12/2019",
+      timing: "11:00",
+      venue: "A, SOUTH WING"
     },
     {
-      name: "ACCATHON 2022",
-      date: "12/12/12",
-      timing: "HH:MM",
+      name: "NEW YEARS EVE",
+      date: "31/12/2019",
+      timing: "23:00",
       venue: "Plot no. 9"
     }
   ];
@@ -39,7 +39,7 @@
 
 </style>
 
-<div>
+<div style="margin-top: 50px;"> 
   {#if !loader}
     {#each data as { name, date, timing, venue }, i}
       <Event {name} {date} {timing} {venue} />
