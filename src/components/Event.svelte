@@ -3,7 +3,7 @@
   export let date;
   export let timing;
   export let venue;
-  export let class;
+  export let custclass;
 </script>
 
 <style lang="scss">
@@ -46,8 +46,8 @@
 <div class="box-wrap">
 <div class="box">
   <h1>{name}</h1>
-  <div class="mb-20 {class}" style="justify-content:space-around;"><span>Date: {date}</span> <span>Timing: {timing}</span>
-  <div class="mb-20 venue">Venue: {venue} </div>
+  <div class="mb-20 " style="justify-content:space-around;"><span>Date: {date}</span> <span>Timing: {timing}</span>
+  <div class="mb-20 venue">Venue: {venue} {custclass}</div>
   </div>
   
 </div>
