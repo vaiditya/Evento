@@ -11,6 +11,9 @@
   function generateData() {
     loader = false;
   }
+  function onSubmit(event) {
+    console.log("submit");
+  }
 </script>
 
 <style>
@@ -19,7 +22,7 @@
 
 <div>
   {#if !loader}
-    <CreateEvent {name} {date} {timing} {venue} on:message:{handleFormInput} />
+    <CreateEvent {name} {date} {timing} {venue} on:submitForm:{onSubmit} />
   {:else}
     <img
       src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"

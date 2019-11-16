@@ -30,7 +30,7 @@
   {:else}
     <img
       class="loader"
-      src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
-      alt="loading.." />
+      src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjFxM-Coe7lAhXIXSsKHfDLAqQQjRx6BAgBEAQ&url=https%3A%2F%2Fwpamelia.com%2Floading-animation%2F&psig=AOvVaw3vbc-BGj7Q3Qfv2CYIYPbS&ust=1573977433535933"
+      alt="" />
   {/if}
 </div>
