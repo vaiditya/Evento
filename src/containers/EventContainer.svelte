@@ -33,6 +33,10 @@
       venue: "Plot no. 9"
     }
   ];
+
+  function createEvent() {
+    window.location = "./createEvent";
+  }
 </script>
 
 <style>
@@ -44,6 +48,7 @@
     {#each data as { name, date, timing, venue }, i}
       <Event {name} {date} {timing} {venue} />
     {/each}
+    <button on:click={createEvent}>CREATE</button>
   {:else}
     <img
       src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
