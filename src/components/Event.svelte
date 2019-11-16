@@ -41,6 +41,8 @@
     padding: 10px 0;
     margin: 5px 0;
     color: #ffc;
+    display: flex;
+    justify-content: space-between;
   }
   .icons {
     // display: inline-flex;
@@ -51,6 +53,7 @@
     display: flex;
     justify-content: flex-end;
   }
+  
 </style>
 
 <div class="box-wrap">

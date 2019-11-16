@@ -79,6 +79,6 @@
     </Swipe>
   </div>
   <button href="/event" class="btn-cust" on:click={onCreateEvent}>
-    Event List >
+    View Events
   </button>
 </div>

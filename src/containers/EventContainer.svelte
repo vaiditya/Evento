@@ -10,7 +10,7 @@
   let data = [
     {
       name: "ACCATHON 2019",
-      date: "12/12/12",
+      date: "12/12/2019",
       timing: "15:00",
       icons: "/images/seminar.svg",
       venue: "Plot no. 9, ACCIONLABS, MUMBAI",
@@ -52,19 +52,37 @@
     display: flex;
     justify-content: flex-end;
   }
+  .btn-cust {
+    width: auto;
+   box-shadow: 2px 2px 2px #201c28;
+    border-radius: 5px;
+    padding: 15px 35px;
+    z-index: 9999;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+        background: #383a4f;
+}
 </style>
 
-<div style="margin-top: 50px;">
   {#if !loader}
+  <div style="margin-top: 50px;">
     {#each data as { name, date, timing, venue, custclass, icons }, i}
       <Event {name} {date} {timing} {venue} {custclass} {icons} />
     {/each}
-    <button on:click={createEvent}>CREATE</button>
-  {:else}
+    <div style="display:flex;justify-content:space-around;margin: 30px 0;"> 
+    <button class="btn-cust" on:click={createEvent}>CREATE</button>
+    </div>
+    </div>
+  {:else} 
+  <div style="display: flex;justify-content: center;min-height:100vh;align-items: center;">
     <img
       class="loader"
-      src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
+      src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif"
       alt="" />
+      </div>
   {/if}
 
-</div>
+

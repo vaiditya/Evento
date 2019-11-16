@@ -12,25 +12,21 @@
 </script>
 
 <style>
-  .loader {
-    display: flex;
-    left: 0;
-    right: 0;
-    position: fixed;
-    z-index: 9999;
-  }
+
 </style>
 
-<div>
+<div >
   {#if !loader}
     <Slider />
     <Feature />
     <About />
     <Contact />
   {:else}
+  <div style="display: flex;justify-content: center;min-height:100vh;align-items: center;">
     <img
       class="loader"
-      src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjFxM-Coe7lAhXIXSsKHfDLAqQQjRx6BAgBEAQ&url=https%3A%2F%2Fwpamelia.com%2Floading-animation%2F&psig=AOvVaw3vbc-BGj7Q3Qfv2CYIYPbS&ust=1573977433535933"
+      src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif"
       alt="" />
+      </div>
   {/if}
 </div>
