@@ -13,28 +13,28 @@
       date: "12/12/12",
       timing: "15:00",
       venue: "Plot no. 9, AccionLabs",
-      custclass:"black"
+      custclass: "black"
     },
     {
       name: "CHRISTMAS 2019",
       date: "25/12/2019",
       timing: "19:00",
       venue: "NORTH WING",
-      custclass:"green"
+      custclass: "green"
     },
     {
       name: "CSI Annual Meet",
       date: "27/12/2019",
       timing: "11:00",
       venue: "A, SOUTH WING",
-      custclass:"red"
+      custclass: "red"
     },
     {
       name: "NEW YEARS EVE",
       date: "31/12/2019",
       timing: "23:00",
       venue: "Plot no. 9",
-      custclass:"purple"
+      custclass: "purple"
     }
   ];
 </script>
@@ -45,7 +45,7 @@
 
 <div style="margin-top: 50px;"> 
   {#if !loader}
-    {#each data as { name, date, timing, venue }, i}
+    {#each data as { name, date, timing, venue, custclass }, i}
       <Event {name} {date} {timing} {venue} {custclass} />
     {/each}
   {:else}
