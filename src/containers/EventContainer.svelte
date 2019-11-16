@@ -41,8 +41,8 @@
 
 <div>
   {#if !loader}
-    {#each data as { name }, i}
-      <Event {name} />
+    {#each data as { name, date, timing, venue }, i}
+      <Event {name} {date} {timing} {venue} />
     {/each}
   {:else}
     <img

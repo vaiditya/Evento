@@ -1,5 +1,8 @@
 <script>
   export let name;
+  export let date;
+  export let timing;
+  export let venue;
 </script>
 
 <style lang="scss">
@@ -9,5 +12,5 @@
 </style>
 
 <div>
-  <h1>{name}</h1>
+  <h1>{name}{date}{timing}{venue}</h1>
 </div>
