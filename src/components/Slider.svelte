@@ -1,5 +1,6 @@
 <script>
   import { Swipe, SwipeItem } from "svelte-swipe";
+  // import url1 from "../../public/images/e1.jpg";
   let autoplay = true;
   let delay = 2000; //ms
   let showIndicators = true;
@@ -48,27 +49,29 @@
   <div class="swipe-holder">
     <Swipe {showIndicators} {autoplay} {delay} {transitionDuration}>
       <SwipeItem>
-        <img src="../../public/images/e1.jpg" alt="" />
-      </SwipeItem>
-
-      <SwipeItem>
         <img
-          src="../../public/images/e2.jpg"
+          src="https://bigfday.com/blog/wp-content/uploads/2018/06/Corporate-Event-1.jpg"
           alt="" />
       </SwipeItem>
 
       <SwipeItem>
         <img
-          src="../../public/images/e3.jpg"
+          src="https://www.cdacentre.com/wp-content/uploads/2017/10/event.jpg"
           alt="" />
       </SwipeItem>
 
       <SwipeItem>
-        <img src="../../public/images/e4.jpg" alt="" />
+        <img
+          src="https://www.seniorarchitectural.co.uk/wp-content/uploads/2018/09/exhibitor-tips-build-show.jpg"
+          alt="" />
+      </SwipeItem>
+
+      <SwipeItem>
+        <img src="https://c.pxhere.com/photos/b8/7a/photo-55317.jpg!d" alt="" />
       </SwipeItem>
     </Swipe>
   </div>
   <button href="/event" class="btn-cust" on:click={onCreateEvent}>
-    Create Event
+    Event List >
   </button>
 </div>

@@ -1,5 +1,5 @@
 <script>
-
+  export let name;
 </script>
 
 <style lang="scss">
@@ -8,4 +8,6 @@
   }
 </style>
 
-<h1>Event list</h1>
+<div>
+  <h1>{name}</h1>
+</div>
