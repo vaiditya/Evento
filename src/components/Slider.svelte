@@ -41,6 +41,7 @@
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
+    border:none;
   }
 </style>
 

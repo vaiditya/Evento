@@ -18,7 +18,7 @@
 
 <div class="copyright">
   <b>
-    <small>&copy; Copyright 2019, EVENTO</small>
+    <small>&copy; Copyright 2019 | EVENTO</small>
   </b>
 
 </div>
