@@ -3,6 +3,7 @@
   export let date;
   export let timing;
   export let venue;
+  export let custclass;
 </script>
 
 <style lang="scss">
@@ -17,7 +18,17 @@
     width: 90%;
     margin: 15px 10px;
     padding: 10px 20px;
+   
   }
+   .purple{
+          background: #311e5e; 
+    }
+    .red{
+          background: #d12121;
+    }
+    .green{
+          background: #0d4319;
+    }
   span{
     margin:0 20px 10px 0;
     padding-bottom: 10px;
@@ -29,12 +40,14 @@
   .mb-20{
     margin-bottom:20px;
   }
+  .venue{ display: flex;
+    justify-content: flex-end;}
 </style>
 <div class="box-wrap">
 <div class="box">
   <h1>{name}</h1>
-  <div class="mb-20" style="justify-content:space-around;"><span>Date: {date}</span> <span>Timing: {timing}</span>
-  <div class="mb-20">Venue: {venue}</div>
+  <div class="mb-20 " style="justify-content:space-around;"><span>Date: {date}</span> <span>Timing: {timing}</span>
+  <div class="mb-20 venue">Venue: {venue} {custclass}</div>
   </div>
   
 </div>
