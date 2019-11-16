@@ -1,6 +1,12 @@
 <script>
   import Event from "../components/Event.svelte";
 
+  let loader = true;
+  setTimeout(generateData, 4000);
+  async function generateData() {
+    loader = false;
+  }
+
   let data = [
     {
       name: "ACCATHON 2019",
@@ -34,8 +40,14 @@
 </style>
 
 <div>
-  {#each data as { name }, i}
-    <Event {name} />
-  {/each}
+  {#if !loader}
+    {#each data as { name }, i}
+      <Event {name} />
+    {/each}
+  {:else}
+    <img
+      src="https://i.pinimg.com/originals/39/ee/de/39eede5b8818d7c02d2340a53a652961.gif"
+      alt="" />
+  {/if}
 
 </div>
