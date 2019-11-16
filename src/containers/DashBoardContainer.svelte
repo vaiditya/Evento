@@ -12,7 +12,13 @@
 </script>
 
 <style>
-
+  .loader {
+    display: flex;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+  }
 </style>
 
 <div>
@@ -23,7 +29,8 @@
     <Contact />
   {:else}
     <img
+      class="loader"
       src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif"
-      alt="" />
+      alt="loading.." />
   {/if}
 </div>
