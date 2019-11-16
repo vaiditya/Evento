@@ -34,7 +34,7 @@
 
 <header>
   <div class="logo">
-    <img src="/image/evento-1.svg" height="20px" width="20px" alt="Logo" />
+    <img src="/image/eventonew.png" height="20px" width="20px" alt="Logo" />
     Evento
   </div>
   <ul>
