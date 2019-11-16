@@ -36,6 +36,7 @@
   h1{
     padding: 10px 0;
     margin: 5px 0;
+    color: #ffc;
   }
   .mb-20{
     margin-bottom:20px;
